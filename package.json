@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "node-red-docker",
+  "name": "hass-node-red-arm64v8",
   "description": "A visual tool for wiring the Internet of Things",
   "homepage": "https://addons.community",
   "repository": "https://github.com/hassio-addons/addon-node-red",
