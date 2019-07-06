@@ -6,8 +6,8 @@ services:
   - docker
 
 before_install:
-  - source version.sh
-  - echo $VERSION
+  # - source version.sh
+  # - echo $VERSION
   - docker run --rm --privileged multiarch/qemu-user-static:register --reset
   - docker build -f latest/Dockerfile -t mc303/hass-node-red-arm64v8 .
 
